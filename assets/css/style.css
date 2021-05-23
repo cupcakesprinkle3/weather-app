@@ -16,6 +16,18 @@ background-color: teal;
 color: white;
 }
 
+.low-risk {
+  background: green;
+}
+
+.medium-risk {
+  background: orange;
+}
+
+.high-risk {
+  background: red;
+}
+
 /* :root {
     --primary: #ccdad1;
     --secondary: #9caea9;
@@ -183,7 +195,7 @@ color: white;
   } */
   
   /* FORM */
-  /* .form-label,
+  .form-label,
   .form-input,
   .form-textarea {
     display: block;
@@ -199,9 +211,9 @@ color: white;
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
-    border: 2px solid var(--light-dark);
-    border-radius: var(--border-radius);
-  } */
+    border: 2px solid gray;
+    border-radius: 3px;
+  } 
   
   /* HEIGHT / WIDTH UTILS */
   /* .min-100-vh {
