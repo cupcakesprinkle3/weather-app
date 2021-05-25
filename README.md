@@ -10,4 +10,10 @@ This app is built with HTML, CSS, JavaScript, Bootstrap, Google Fonts, Font Awes
 You can find the deployed app here on GitHub Pages - https://cupcakesprinkle3.github.io/weather-app/
 
 ## Screenshot
-Here's the inspiration for this project 
+Here's the inspiration for this project:
+
+![Weather Dashboard Mockup](https://user-images.githubusercontent.com/79061264/119425821-ee21d400-bcbc-11eb-943d-9365e8dc9915.png)
+
+Here's the currently deployed dashboard built by cupcakesprinkle3
+![cupcakesprinkle3 app screenshot weather](https://user-images.githubusercontent.com/79061264/119425827-f1b55b00-bcbc-11eb-8374-692aac908fa3.png)
+
