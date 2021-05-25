@@ -99,7 +99,7 @@ var getCurrentWeather = function (city) {
     })
     .catch(function (error) {
       console.log(error);
-      if(error) alert("Unable to connect to OpenWeather API");
+      if (error) alert("Unable to connect to OpenWeather API");
     });
 
   var getFiveDay = function (lat, lon) {
@@ -190,7 +190,7 @@ var getCurrentWeather = function (city) {
       })
       .catch(function (error) {
         console.log(error);
-        if(error) alert("Unable to connect to OpenWeather API");
+        if (error) alert("Unable to connect to OpenWeather API");
       });
   }
 
@@ -202,7 +202,7 @@ function displayHistory() {
   for (let i = 0; i < pastSearches.length; i++) {
     var button = document.createElement("button");
     button.innerText = pastSearches[i];
-    button.addEventListener("click", function() {
+    button.addEventListener("click", function () {
       getCurrentWeather(pastSearches[i]);
     });
     cityEl.append(button);
